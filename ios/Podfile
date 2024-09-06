@@ -16,6 +16,7 @@ end
 
 target 'DemoTask' do
   config = use_native_modules!
+  # require_relative '../node_modules/react-native/scripts/react_native_pods'
 
   use_react_native!(
     :path => config[:reactNativePath],
